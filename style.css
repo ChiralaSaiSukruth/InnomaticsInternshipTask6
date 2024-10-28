@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+   background-image: url("https://img.freepik.com/free-photo/galactic-night-sky-astronomy-science-combined-generative-ai_188544-9656.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.logo{
+    width: 150px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: white;
+    padding: 20px;
+}
+.content h1{
+    font-size: 44px;
+    font-weight: bold;
+}
+#button{
+    width: 100px;
+    height: 50px;
+    background: none;
+    font-size: 15px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+     border-color: white;
+
+}
+.content h1 span{
+    color: orange;
+}
+.launch-time{
+    display: flex;
+    flex-direction: row;
+}
+.launch-time div{
+    flex-basis: 100PX;
+}
+ .launch-time div{
+    margin: 40px;
+font-size: 50px;
+}
+p{
+    font-size: 40px;
+}
+.rocket {
+ width: 550px;
+ position: absolute;
+ right: 10%;
+ bottom: 0;
+ animation :rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+p{
+    font-size: 25px;
+}
